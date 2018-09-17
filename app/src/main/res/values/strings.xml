@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ABNDP4</string>
+    <string name="bu1">Songs</string>
+    <string name="bu2">Albums</string>
+    <string name="bu3">Artists</string>
+    <string name="bu4">Playlists</string>
+    <string name="bu5">Now Playing</string>
+    <string name="time_ini">0:00</string>
+    <string name="time_fin">3:00</string>
+</resources>
