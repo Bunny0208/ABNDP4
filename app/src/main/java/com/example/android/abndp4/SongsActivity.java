@@ -29,26 +29,14 @@ public class SongsActivity extends AppCompatActivity {
         songs.add(new Song("Radioactive", "Imagine Dragons"));
 
 
-        // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The
-        // adapter knows how to create list items for each item in the list.
         SongAdapter adapter = new SongAdapter(this, songs);
 
-        // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
-        // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // word_list.xml layout file.
+
         ListView listView = (ListView) findViewById(R.id.list);
 
-        // Make the {@link ListView} use the {@link SongAdapter} we created above, so that the
-        // {@link ListView} will display list items for each {@link Song} in the list.
+
         listView.setAdapter(adapter);
 
-        /*listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast toast = Toast.makeText(getApplicationContext(),
-                        (String)adapterView.getItemAtPosition(i), Toast.LENGTH_SHORT);
-                toast.show();
-            }
-        });*/
+
     }
 }
